@@ -715,20 +715,7 @@ body {
   justify-content: space-between;
 }
 
-@media (min-width: 1441px) and (max-width: 1900px) {
-  .container {
-    max-width: 1400px;
-  }
-  .new-watches__image {
-    width: 685px;
-    height: 460px;
-  }
-  .sale__block {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width:1024px) and (max-width:1439px) {
   .container {
     max-width: 950px;
   }
