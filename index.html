@@ -23,9 +23,9 @@
                 <a href="#sale" class="header__link hover">SALE</a>
                 <div class="header__spacer"></div>
                 <a href="./404page.html" class="header__button-tel btn hover">+380 (68) 443-94-26</a>
-                <a href="#" class="header__burger">
+                <button class="header__burger" id="burger-button">
                     <img src="./img/icons/gg_menu-left.png" alt="burger" class="button-burger">
-                </a>
+                </button>
             </nav>
             <div class="header__main-block">
                 <div class="header__text-block">
@@ -38,8 +38,8 @@
                     </p>
                 </div>
                 <div class="header__pictures">
-                        <img src="./img/main/main_watch_on_hand_1.svg" alt="watch on hand" class="header__image header__v1 grow">
-                        <img src="./img/main/main_watch_on_hand_1_mobile.png" alt="watch on hand" class="header__image header__v2 grow">
+                    <img src="./img/main/main_watch_on_hand_1.svg" alt="watch on hand" class="header__image header__v1 grow">
+                    <img src="./img/main/main_watch_on_hand_1_mobile.png" alt="watch on hand" class="header__image header__v2 grow">
                     <div class="header__carousel">
                         <div class="header__images">
                             <img src="./img/main/carousel_watch_picture_1.png" alt="carousel" class="header__images--variant">
@@ -66,6 +66,18 @@
                 </div>
             </div>
         </div>
+        <div class="header__burger-menu" id="burger-menu">
+            <img src="./img/icons/logo_with_text_mobile.svg" alt="logo" class="header__burger--logo">
+            <button class="header__burger-menu--close" id="burger-close">
+                <img src="./img/icons/x_white.svg" alt="close">
+            </button>
+            <nav class="header__burger-menu--nav">
+                <a href="#about-us" class="header__burger-menu--link burger-link">ABOUT US</a>
+                <a href="#catalog" class="header__burger-menu--link burger-link">CATALOG</a>
+                <a href="#sale" class="header__burger-menu--link burger-link">SALE</a>
+            </nav>
+        </div>
+        <div id="burger-overlay"></div>
     </header>    
     <section class="about-us" id="about-us">
         <div class="about-us__container container">
@@ -287,6 +299,3 @@
     <script src="js/style.js"></script>   
 </body>
 </html>
-
-    
-    
