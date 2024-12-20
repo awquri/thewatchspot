@@ -1,0 +1,72 @@
+body {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;      
+}
+
+.block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
+
+h1, .text {
+    font-family: "Epilogue", sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 96px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+img {
+    display: none;
+}
+
+@media (max-width:1024px) {
+    h1 {
+        font-size: 72px;
+    }
+}
+
+@media (max-width:768px) {
+    .block {
+        width: 400px;
+    }
+}
+
+@media (max-width:424px){
+    img:first-of-type {
+        display: block;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    .block {
+        width: 350px;
+    }
+}
+
+@media (min-width:425px){
+    img:last-of-type {
+        display: block;
+    }
+
+}
+
+@media (max-width:375px) {
+    .block {
+        width: 300px;
+    }
+}
